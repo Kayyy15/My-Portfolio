@@ -10,19 +10,17 @@
       --dark-text: #a0a0a0;
       --light-gray-text: #9ca3af; /* For greeting */
       --placeholder-gray: #707070; /* For image placeholders */
-
+      --section-darker-bg: #151515; /* Even darker than dark-bg */
+    
       /* Warm Colors */
       --primary-accent-warm: #FF8C00; /* Dark Orange */
       --primary-accent-warm-darker: #CC7000; /* Darker Orange for hover */
       --glow-warm: rgba(255, 140, 0, 0.4); /* Soft orange glow */
       --glow-warm-strong: rgba(255, 140, 0, 0.6); /* Stronger orange glow */
-      --yellow-accent: #facc15; /* Yellow for sun icon */
 
-      /* Subtle Blue (for contrast, if desired in other elements) */
-      --subtle-blue: #007bff; /* Original blue, kept for reference/subtle use */
-
-      /* New darker shades for specific sections */
-      --section-darker-bg: #151515; /* Even darker than dark-bg */
+      /* Subtle Blue for contrast */
+      --subtle-blue: #007bff; 
+     
   }
 
   /* Base styles */
@@ -49,7 +47,7 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
+      width: 1810px;
       display: flex;
       justify-content: space-between;
       align-items: center;
