@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+     <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Portfolio</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-container">
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1><span class="name-glow">Karan Shedge</span></h1>
+            <h2>2nd Year B.Tech Student</h2>
+            <p>Passionate about creating solutions that make a difference.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="location.href='#projects'">View My Work<span class="arrow-icon">
+                <i class="fas fa-arrow-down"></i></span></button>
+                <button class="btn-secondary" onclick="location.href='#contact'">Get in Touch</button>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/Kayyy15", target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/karan-shedge-904410328/", target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=kshedge75@gmail.com", target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-common-styles">
+        <h2 class="section-title-common">About Me</h2>
+        <p class="section-subtitle-common">A student studying Electronoics and Communication Engineering at Pillai College of Engineering, New Panvel.</p>
+
+        <div class="about-content-wrapper">
+            <div class="about-text-column">
+                <h3>Hi there! <span class="emoji">👋</span></h3>
+                <p>I'm a student who's always intrigued and curious about all things technical. I'm passionate about technology and its practical applications.</p>
+                <p>When I'm not coding, you can find me exploring new AI technologies, or enjoying a good cup of coffee while sketching.</p>
+            </div>
+            <div class="map-container">
+            <h3 class="map-title">Where I'm Learning</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.669319454215!2d73.12509517596406!3d18.99020605465874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel%20(Autonomous)!5e0!3m2!1sen!2sin!4v1754495891541!5m2!1sen!2sin"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-common-styles">
+        <h2 class="section-title-common">My Projects</h2>
+        <p class="section-subtitle-common">A selection of my work, showcasing my skills and passion.</p>
+
+        <div class="project-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <div class="project-image-placeholder">
+                    <img src="images/webpage.webp" alt="Project 1 Thumbnail">
+                </div>
+                <h4>My First Webpage</h4>
+                <p>Tried to make my first webpage using HTML, CSS and JavaScript with no idea about web development.</p>
+                <div class="project-links">
+                    <a href="javascript:void(0);" target="_blank">View Project</a>
+                    <a href="https://github.com/Kayyy15/My-First-Webpage" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <div class="project-image-placeholder">
+                    Project Image 2
+                    <!-- <img src="https://placehold.co/400x250/3a3a3a/ffffff?text=Project+2" alt="Project 2 Thumbnail"> -->
+                </div>
+                <h4>Project Title Two</h4>
+                <p>Soon.</p>
+                <div class="project-links">
+                    <a href="javascript:void(0);" target="_blank">View Project</a>
+                    <a href="javascript:void(0);" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card">
+                <div class="project-image-placeholder">
+                    Project Image 3
+                    <!-- <img src="https://placehold.co/400x250/3a3a3a/ffffff?text=Project+3" alt="Project 3 Thumbnail"> -->
+                </div>
+                <h4>Project Title Three</h4>
+                <p>Soon.</p>
+                <div class="project-links">
+                    <a href="javascript:void(0);" target="_blank">View Project</a>
+                    <a href="javascript:void(0);" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- You can add more project cards here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-common-styles">
+        <h2 class="section-title-common">Get In Touch</h2>
+        <p class="section-subtitle-common">Let's collaborate and bring your ideas to life. I'm always excited to work on new projects.</p>
+
+        <div class="contact-content-wrapper">
+            <p class="contact-intro-text">
+                Whether you have a project in mind, want to collaborate, or just want to say hello, I'd love to hear from you. Feel free to reach out through the channel below.
+            </p>
+            <form class="contact-form" action="https://formspree.io/f/xblkyozr" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com">
+                </div>
+                <div class="form-group full-width">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Project inquiry">
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button type="submit" class="send-button" target="_blank">
+                    <span class="icon-wrapper"><i class="fas fa-paper-plane"></i></span> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Karan Shedge. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/Kayyy15" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/karan-shedge-904410328/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=kshedge75@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
